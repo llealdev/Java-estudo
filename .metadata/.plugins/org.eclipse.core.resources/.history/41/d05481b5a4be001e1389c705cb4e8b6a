@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int qtdH, i ;
+		
+		System.out.println("Qual vai ser a quantidade de hóspedes ?");
+		qtdH = sc.nextInt();
+		
+		for ( i = 0; i < qtdH; i++) {
+			System.out.println("Oi");
+		}
+		
+		
+		
+		sc.close();	
+	}
+
+}

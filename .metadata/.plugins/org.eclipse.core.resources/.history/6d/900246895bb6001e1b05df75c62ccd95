@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int y;
+		String x;
+		Double o;
+		Char p;
+		
+		System.out.println("Qual o seu nome ?");
+		x = sc.next();
+		System.out.println("Que nome lindo " + x);
+		System.out.println("Quantos anos você tem " + x +" ?");
+		y = sc.nextInt();
+		System.out.println("Quantos metros de alutra mais ou menos você tem ? ");
+		o = sc.nextDouble();
+		System.out.println("Qual sexo você é (M/F)?");
+		p = sc.next().charAt(0);
+	
+		sc.close();
+	}
+
+}
