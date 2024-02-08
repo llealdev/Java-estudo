@@ -33,12 +33,11 @@ public class Program {
 			soma += vect[i];
 		}
 		
-		System.out.print("Soma = " + soma);
-		System.out.println();
+		System.out.println("Soma = " + soma);
 		
 	    double avg = soma / n; 
 	    
-	    System.out.print("Media = " + avg);
+	    System.out.println("Media = " + avg);
 	    
 		sc.close();
 	}
