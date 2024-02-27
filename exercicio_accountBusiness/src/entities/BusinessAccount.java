@@ -25,9 +25,14 @@ public class BusinessAccount extends Account {
 		if (amount <= loanLimit) {
 			balance += amount;
 		}
+	
 	}
 	
-	
+	@Override 
+	public void withdraw(Double amount ) {
+		super.withdraw(amount);
+		balance -= 2.0;
+	}
 	
 
 }
